@@ -112,12 +112,6 @@ const svensChances = num => {
 
 svensChances(2);
 
-//This function takes an order and returns an object
-
-// let sandwich = prompt("Enter Sandwich!");
-// let side = prompt("What side would you like? choose only one!");
-// let drink = prompt("Please choose a drink!");
-// let dessert = prompt("Please choose a dessert!");
 const orderMeal = (sandwich, side, drink, dessert) => {
   return {
     sandwich: sandwich,
@@ -129,13 +123,6 @@ const orderMeal = (sandwich, side, drink, dessert) => {
 
 const takeOut = orderMeal("Turkey", "Mac-N-Cheese", "Tea", "Red Velvet Cake");
 console.log(takeOut);
-// const takeOut = orderMeal(sandwich, side, drink, dessert);
-// document.querySelector("#root").innerHTML = `<h1>Order:</h1><ul>
-// <li>Sandwich: ${takeOut.sandwich}</li>
-// <li>Side: ${takeOut.side}</li>
-// <li>Drink: ${takeOut.drink}</li>
-// <li>Dessert: ${takeOut.dessert}</li>
-// </ul>`;
 
 //This function multiples number by 2
 const twice = number => number * 2;
