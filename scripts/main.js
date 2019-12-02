@@ -172,23 +172,3 @@ console.log(bySelf);
 
 const cubed = makeBigger(number, cubedNumber);
 console.log(cubed);
-
-//This function washes dishes
-const washDishes = person => `${person} ${chore}`;
-
-//This function cooks food
-const cookFood = person => `${person} ${chore}`;
-
-//This function washes clothes
-const washClothes = person => `${person} ${chore}`;
-
-//This function washes car
-const washCar = person => `${person} ${chore}`;
-
-//This function vacuums floor
-const vacuumFloor = person => `${person} ${chore}`;
-
-//This function makes groceries
-const makeGroceries = person => `${person} ${chore}`;
-
-const dayPlanner = (chore, person, day) => {};
