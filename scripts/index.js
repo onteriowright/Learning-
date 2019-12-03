@@ -162,14 +162,13 @@ console.log(bySelf);
 const cubed = makeBigger(number, cubedNumber);
 console.log(cubed);
 
-// This Function has the same person perform a series of 3 chores
 const person = {
   firstName: "Lebron",
   lastName: "James"
 };
 
 const basketballPractice = person =>
-  `${person.firstName} ${person.lastName} went to go practice`;
+  `${person.firstName} ${person.lastName} went to practice`;
 
 const cookMeal = person =>
   `${person.firstName} ${person.lastName} cooked a really nice meal`;
@@ -186,6 +185,16 @@ const takeOutTrash = person =>
 const washDishes = person =>
   `${person.firstName} ${person.lastName} washed the dishes`;
 
+// This function has a person perform one chore
+const oneDayPlanner = (firstChore, day) => `On ${day} ${firstChore}!`;
+
+const oneDayFinishedChores = oneDayPlanner(
+  basketballPractice(person),
+  "Tuesday"
+);
+console.log(oneDayFinishedChores);
+
+// This function has the same person perform a series of 3 chores
 const dayPlanner = (firstChore, secondChore, thirdChore, person, day) => {
   return `On ${day} ${firstChore}, and ${secondChore}, and ${thirdChore}!`;
 };
