@@ -181,7 +181,7 @@ const waterLawn = person =>
   `${person.firstName} ${person.lastName} water the lawn!`;
 
 const takeOutTrash = person =>
-  `${person.firstName} ${person.lastName} took the trash out`;
+  `${person.firstName} ${person.lastName} took out the trash`;
 
 const washDishes = person =>
   `${person.firstName} ${person.lastName} washed the dishes`;
