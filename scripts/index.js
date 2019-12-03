@@ -32,6 +32,8 @@ console.log(answer);
 const go = (direction, speed) => {
   if (speed > 75) {
     return `SLOW DOWN!`;
+  } else if (speed < 40) {
+    return `SPEED UP you are driving way to slow at ${speed} mph! That's way below the speed limit for the interstate!`;
   }
   return `The car is moving ${direction} at ${speed} mph!`;
 };
